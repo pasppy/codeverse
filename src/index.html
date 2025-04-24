@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/public/stylesheets/output.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+    @font-face {
+      font-family: 'Futura';
+      src: url('/public/fonts/Patinio\ Futura.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Tuesday Vibes';
+      src: url('/public/fonts/TuesdayVibes-09AR.otf') format('opentype');
+    }
+
+    /* brand name */
+    .futura {
+      font-family: 'Futura', sans-serif;
+    }
+
+    /* for 'join the' text */
+    .tuesday-vibes {
+      font-family: 'Tuesday Vibes';
+    }
+
+    /* big texts */
+    .special-gothic {
+      font-family: "Special Gothic Expanded One", sans-serif;
+      font-weight: 800;
+    }
+
+    /* other informations */
+    .roboto {
+      font-family: "Roboto", sans-serif;
+      font-variation-settings:
+        "wdth"100;
+
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: white;
+      font-family: "Roboto", sans-serif;
+
+    }
+
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    @keyframes slider {
+      0% {
+
+        transform: translateX(0);
+      }
+
+      100% {
+
+        transform: translateX(-100%);
+      }
+
+    }
+
+    #slider {
+      transform: translateX(0);
+      animation: slider 12s linear infinite;
+    }
+
+
+    .text-stroke-white {
+      -webkit-text-stroke: 1px white;
+    }
+
+    .text-stroke-pink {
+      -webkit-text-stroke: 1px #cb6ce6;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="socials" class="hidden  bg-[#360f56] lg:flex flex-col gap-4 p-4 fixed z-[5] top-[50%] left-0">
+    <a href=""><img src="../public/images/instagram.png" class="w-6" alt=""></a>
+    <a href=""><img src="../public/images/twitter.png" class="w-6" alt=""></a>
+    <a href=""><img src="../public/images/linkedin.png" class="w-6" alt=""></a>
+  </div>
+
+  <div id="hero" class="relative h-screen z-10">
+    <video autoplay muted loop playsinline src="/public/videos/codeverse logo.mp4" class="absolute -z-10 h-full w-full object-cover object-center "></video>
+
+    <nav class="px-5 pt-5 lg:px-10 lg:pt-10 flex justify-between ">
+
+      <img src="/public/images/cvbnw logo.png" class="hidden lg:block w-8" alt="">
+
+      <div id="brand" class="flex gap-4 items-center">
+        <p class="text-4xl futura ">CODEVERSE</p>
+      </div>
+
+      <div id="menu" class="">
+        <img src="/public/images/icons8-menu-250.png" class="w-8" alt="">
+      </div>
+    </nav>
+
+    <div id="lower" class="roboto absolute w-full bottom-5 px-5 lg:px-10 lg:bottom-10 flex justify-between items-center">
+      <div>
+        <p>site status:</p>
+        <p class="text-4xl text-[#cb6ce6] font-semibold">Online</p>
+      </div>
+      <div class="flex flex-col items-end">
+        <p>version:</p>
+        <p class="text-4xl text-[#cb6ce6] font-semibold">CV-0.1a</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div id="page2" class=" flex flex-col justify-center overflow-hidden gap-20 lg:gap-32 items-center bg-[url('/public/images/bg-gradient.jpg')] bg-cover lg:bg-right relative -z-10">
+
+    <div class="mt-10 text-[5vmax] text-nowrap flex justify-center items-center flex-wrap leading-none ">
+      <h1 class="text-transparent text-stroke-white tracking-wide lg:tracking-widest special-gothic">WELCOME TO</h1>
+      <h1 class="special-gothic">CODEVERSE</h1>
+    </div>
+
+    <div id="message" class="p-8 pt-20  mb-20 relative flex justify-center items-center h-[50vh] w-[70vw] lg:w-[80vw] rounded-[40px] bg-[#26172e] z-5">
+
+      <div id="heading2" class="absolute top-0 right-0 transform translate-y-[-50%] flex justify-center items-center tracking-wider text-2xl lg:text-4xl font-bold py-4  bg-[#360f56] rounded-full w-[85%] lg:w-[70%]">
+        who are we?
+      </div>
+
+      <div id="info" class="lg:w-[50%] text-[4vmin] lg:text-[3vmin] text-center">To be precise CODEVERSE is an opensource community by the students, for the students. It primarily focuses on upliftment of coding culture in Aliah University. But in a larger picture it's kind of a mayhem to create something new, something incredible.</div>
+
+      <div id="logo1" class="absolute bottom-[-10px] left-0 transform translate-x-[-50%] w-[5vmax] z-10"><img src="../public/images/cvbnw logo.png" alt=""></div>
+      <div id="logo2" class="absolute top-[50%] right-0 transform translate-y-[-50%] translate-x-[70%] w-[40vmax] max-w-[500px]  hidden lg:block"><img src="../public/images/cvbnw logo.png" alt=""></div>
+    </div>
+
+  </div>
+
+  <div id="page3" class="flex flex-col justify-center items-center gap-20 lg:gap-40  bg-[url('/public/images/bg-gradient.jpg')] bg-cover lg:bg-right relative -z-10">
+
+    <div id="heading3" class="mt-10 flex justify-center items-center tracking-wider text-2xl lg:text-4xl font-semibold py-4 px-[54px] sm:px-40 text-nowrap   bg-[#360f56] rounded-full">
+      what do we bring in?
+    </div>
+
+    <div class="mb-20 flex items-around justify-around flex-wrap w-[80%] lg:w-[70%] gap-10 ">
+
+      <div id="first" class="flex flex-col justify-center items-center gap-2 lg:gap-5 ">
+        <img src="../public/images/learning.png" alt="" class="w-[30vmin] max-w-[200px] ">
+        <p class="text-[#cb6ce6]  lg:text-xl">Learnings</p>
+      </div>
+
+      <div id="second" class="flex flex-col justify-center items-center  gap-2 lg:gap-5">
+        <img src="../public/images/discussion.png" alt="" class="w-[30vmin] max-w-[200px]">
+        <p class="text-[#cb6ce6] lg:text-xl">Mentorship</p>
+      </div>
+
+      <div id="third" class="flex flex-col justify-center items-center gap-2 lg:gap-5">
+        <img src="../public/images/consulting.png" alt="" class="w-[30vmin] max-w-[200px]">
+        <p class="text-[#cb6ce6] lg:text-xl">Opportunities</p>
+      </div>
+
+      <div id="fourth" class="flex flex-col justify-center items-center gap-2 lg:gap-5 ">
+        <img src="../public/images/networking (1).png" alt="" class="w-[30vmin] max-w-[200px]">
+        <p class="text-[#cb6ce6] lg:text-xl">Networking</p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div id="page4" class="flex flex-col justify-center items-center gap-20  bg-[url('/public/images/bg-gradient.jpg')] bg-cover lg:bg-right relative -z-10">
+
+    <div id="heading4" class="mt-10 flex justify-center items-center tracking-wider text-3xl lg:text-4xl font-semibold py-4 px-[54px] sm:px-40 text-nowrap   bg-[#360f56] rounded-full">
+      coming soon
+    </div>
+
+    <div class="mb-20 flex items-around justify-around flex-wrap w-[80%] lg:w-[70%] gap-10 ">
+
+      <div id="leaderboard" class="flex flex-col justify-center items-center gap-6 lg:gap-5 bg-[#26172d] w-[300px] h-[350px] rounded-[40px] hover:scale-110 transition hover:bg-[#360f56]">
+        <img src="../public/images/podium.png" alt="" class="w-[30vmin] max-w-[140px] ">
+        <p class="text-[#e6d9e8]  text-3xl font-bold ">Leaderboard</p>
+      </div>
+
+      <div id="hackverse" class="flex flex-col justify-center items-center  gap-6 lg:gap-5 bg-[#26172d] w-[300px] h-[350px]  rounded-[40px] hover:scale-110 transition hover:bg-[#360f56]">
+        <img src="../public/images/hacker.png" alt="" class="w-[30vmin] max-w-[140px]">
+        <p class="text-[#e6d9e8] text-3xl font-bold">HackVerse</p>
+      </div>
+
+      <div id="showcase" class="flex flex-col justify-center items-center gap-6 lg:gap-5 bg-[#26172d] w-[300px] h-[350px]   rounded-[40px] hover:scale-110 transition hover:bg-[#360f56]">
+        <img src="../public/images/picture.png" alt="" class="w-[30vmin] max-w-[140px]">
+        <p class="text-[#e6d9e8] text-3xl font-bold">Showcase</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="page5" class="flex flex-col justify-center items-center gap-10 bg-[url('/public/images/bg-gradient.jpg')] bg-cover lg:bg-right relative -z-10">
+    <div id="heading4" class="mt-10 flex justify-center items-center tracking-wider text-3xl lg:text-4xl font-semibold py-4 px-[54px] sm:px-40 text-nowrap   bg-[#360f56] rounded-full">
+      our mentors
+    </div>
+
+    <div id="slider-container" class="pl-6 lg:pl-12 w-full gap-6 lg:gap-12 flex overflow-hidden">
+      <div id="slider" class="flex gap-6 lg:gap-12 w-[fit-content]">
+        <div class="mentor1 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor2 bg-gray-400 w-[100px] lg:w-[200px] h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor3 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor4 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor5 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor6 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor7 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor8 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+      </div>
+      <div id="slider" class=" flex gap-6 lg:gap-12 w-[fit-content]">
+        <div class="mentor1 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor2 bg-gray-400 w-[100px] lg:w-[200px] h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor3 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor4 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor5 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor6 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor7 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+        <div class="mentor8 bg-gray-400 w-[100px] lg:w-[200px]  h-[50px] lg:h-[100px] rounded-full"></div>
+      </div>
+    </div>
+
+    <div id="join-the-revolution" class="mt-20 lg:mt-40">
+      <div class="relative">
+        <h1 class="absolute transform translate-y-[-20%] tuesday-vibes text-[8vw] ">Join the</h1>
+        <h1 class="special-gothic text-[10vw] text-transparent text-stroke-pink text-[#cb6ce6]">REVOLUTION</h1>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="page6" class="pt-10 pb-10 flex justify-center items-center flex-col lg:flex-row gap-20 bg-[url('/public/images/bg-gradient.jpg')] bg-cover lg:bg-right relative -z-10">
+
+    <div id="left" class="flex flex-col gap-20 justify-between items-center">
+
+      <div id="heading4" class=" flex justify-center items-center tracking-wider text-3xl lg:text-4xl font-semibold py-4 lg:py-3  px-[54px] sm:px-40 text-nowrap   bg-[#360f56] rounded-full">
+        contact us
+      </div>
+
+      <div class=" flex flex-col items-center">
+        <div id="logos" class="flex gap-4">
+          <img src="../public/images/cvbnw logo.png" class="w-10" alt="">
+          <img src="../public/images/cvbnw logo.png" class="w-10" alt="">
+        </div>
+        <h1 class="mt-5 mb-3 text-[#8c52ff] special-gothic text-4xl tracking-wider">CODEVERSE</h1>
+        <h1 class="text-3xl">Aliah University</h1>
+        <p class="text-center">Plot No.- IIA/27, AA II, Newtown, Kolkata, Kadampukur, West Bengal 700160</p>
+      </div>
+
+
+
+
+
+    </div>
+
+    <div id="right" class=" flex items-center flex-col gap-6 ">
+
+      <form action="" class="flex flex-col gap-4 w-[80vw] lg:w-[30vw] ">
+        <input type="text" placeholder="Your Name" class="bg-transparent outline-none border-b border-white py-1 ">
+        <input type="number" placeholder="Your Number" class="bg-transparent outline-none border-b border-white py-1 ">
+        <textarea name="" id="" placeholder="Enter " class="bg-transparent outline-none border-b border-white "></textarea>
+        <button class="mt-5 bg-[#8c52ff] rounded-full "> <img class="w-10 m-auto invert" src="https://img.icons8.com/?size=100&id=UwNwzKjuqt0T&format=png&color=000000" alt=""></button>
+      </form>
+
+
+    </div>
+  </div>
+
+
+  <!-- <div id="footer" class="py-8 gap-20 bg-[url('/public/images/bg-gradient.jpg')] bg-cover lg:bg-right relative"></div> -->
+
+
+</body>
+
+</html>
