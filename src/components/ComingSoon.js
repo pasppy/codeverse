@@ -4,7 +4,7 @@ const ComingSoon = () => {
   return (
     <div
       id="page4"
-      className="flex flex-col justify-center items-center gap-20 bg-[url('/images/bg-gradient.jpg')] bg-cover lg:bg-right relative -z-10"
+      className="flex flex-col justify-center items-center gap-20 bg-gradient-bg bg-cover lg:bg-right relative -z-10"
     >
       <div
         id="heading4"

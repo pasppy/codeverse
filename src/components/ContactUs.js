@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <div
       id="page6"
-      className="pt-10 pb-10 flex justify-center items-center flex-col lg:flex-row gap-20 bg-[url('/images/bg-gradient.jpg')] bg-cover lg:bg-right relative -z-10"
+      className="pt-10 pb-10 flex justify-center items-center flex-col lg:flex-row gap-14 lg:gap-20 bg-gradient-bg bg-cover lg:bg-right relative -z-10"
     >
       <div id="left" className="flex flex-col gap-20 justify-between items-center">
         <div
@@ -28,7 +28,7 @@ const ContactUs = () => {
       </div>
 
       <div id="right" className="flex items-center flex-col gap-6">
-        <form action="" className="flex flex-col gap-4 w-[80vw] lg:w-[30vw]">
+        <form action="" className="bg-[#360f56] rounded-[20px] p-8 flex flex-col gap-4 w-[80vw] lg:w-[30vw]">
           <input
             type="text"
             placeholder="Your Name"
@@ -45,7 +45,7 @@ const ContactUs = () => {
             placeholder="Enter "
             className="bg-transparent outline-none border-b border-white"
           ></textarea>
-          <button className="mt-5 bg-[#8c52ff] rounded-full">
+          <button className="mt-6 bg-[#8c52ff] rounded-full">
             <img
               className="w-10 m-auto invert"
               src="https://img.icons8.com/?size=100&id=UwNwzKjuqt0T&format=png&color=000000"

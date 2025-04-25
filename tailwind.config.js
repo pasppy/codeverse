@@ -5,7 +5,11 @@ module.exports = {
     "./public/javascripts/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'gradient-bg': "url('/public/images/bg-gradient.jpg')",
+      },
+    },
   },
   plugins: [],
 }

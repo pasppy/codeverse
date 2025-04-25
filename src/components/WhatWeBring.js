@@ -4,7 +4,7 @@ const WhatWeBring = () => {
   return (
     <div
       id="page3"
-      className="flex flex-col justify-center items-center gap-20 lg:gap-40 bg-[url('/images/bg-gradient.jpg')] bg-cover lg:bg-right relative -z-10"
+      className="flex flex-col justify-center items-center gap-20 lg:gap-40 bg-gradient-bg bg-cover lg:bg-right relative -z-10"
     >
       <div
         id="heading3"
