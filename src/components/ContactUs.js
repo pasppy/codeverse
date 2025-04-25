@@ -30,12 +30,12 @@ const ContactUs = () => {
       </div>
 
       <div id="right" className="flex items-center flex-col gap-6">
-        <form
-          action="https://formsubmit.co/org.codeverse@gmail.com"
-          method="POST"
-          onSubmit={() => setSent(true)}
-          className="bg-[#360f56] rounded-[20px] p-8 flex flex-col gap-4 w-[80vw] lg:w-[30vw]"
-        >
+          <form
+            action={`https://formsubmit.co/${process.env.REACT_APP_CONTACT_EMAIL}`}
+            method="POST"
+            onSubmit={() => setSent(true)}
+            className="bg-[#360f56] rounded-[20px] p-8 flex flex-col gap-4 w-[80vw] lg:w-[30vw]"
+          >
           <input
             type="text"
             name="name"

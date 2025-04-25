@@ -1,1 +1,14 @@
 node_modules
+# React build output
+/build
+# dotenv environment variables file
+.env
+# Logs
+npm-debug.log*
+yarn-error.log*
+# Test coverage
+coverage/
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
