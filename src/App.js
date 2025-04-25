@@ -7,9 +7,12 @@ import Mentors from './components/Mentors';
 
 import ContactUs from './components/ContactUs';
 
+import Socials from './components/Socials';
+
 function App() {
   return (
     <div className="App">
+      <Socials />
       <Hero />
       <WelcomeSection />
       <WhatWeBring />

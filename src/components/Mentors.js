@@ -4,7 +4,7 @@ const Mentors = () => {
   return (
     <div
       id="page5"
-      className="flex flex-col justify-center items-center gap-10 bg-gradient-bg bg-cover lg:bg-right relative -z-10"
+      className="flex flex-col justify-center items-center gap-10 bg-gradient-bg bg-cover lg:bg-right relative "
     >
       <div
         id="heading4"

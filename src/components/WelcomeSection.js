@@ -4,7 +4,7 @@ const WelcomeSection = () => {
   return (
     <div
       id="page2"
-      className="flex flex-col justify-center overflow-hidden gap-20 lg:gap-32 items-center bg-gradient-bg bg-cover lg:bg-right relative -z-10"
+      className="flex flex-col justify-center overflow-hidden gap-20 lg:gap-32 items-center bg-gradient-bg bg-cover lg:bg-right relative "
     >
       <div className="mt-10 text-[5vmax] text-nowrap flex justify-center items-center flex-wrap leading-none">
         <h1 className="text-transparent text-stroke-white tracking-wide lg:tracking-widest special-gothic">WELCOME TO</h1>
