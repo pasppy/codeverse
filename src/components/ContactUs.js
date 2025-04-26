@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <div
       id="page6"
-      className="pt-10 pb-10 flex justify-center items-center flex-col lg:flex-row gap-14 lg:gap-20 bg-gradient-bg bg-cover lg:bg-right relative"
+      className="pt-10 pb-10 flex justify-center items-center flex-col lg:flex-row gap-14 lg:gap-20 relative"
     >
       <div id="left" className="flex flex-col gap-20 justify-between items-center">
         <div
@@ -19,7 +19,7 @@ const ContactUs = () => {
         <div className="flex flex-col items-center">
           <div id="logos" className="flex gap-4">
             <img src="/images/cvbnw logo.png" className="w-10" alt="Logo" />
-            <img src="/images/cvbnw logo.png" className="w-10" alt="Logo" />
+            <img src="/images/output-onlinepngtools.png" className="w-10" alt="Logo" />
           </div>
           <h1 className="mt-5 mb-3 text-[#8c52ff] special-gothic text-4xl tracking-wider">CODEVERSE</h1>
           <h1 className="text-3xl">Aliah University</h1>

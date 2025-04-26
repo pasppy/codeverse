@@ -13,14 +13,14 @@ const Hero = () => {
       />
 
       <nav className="px-5 pt-5 lg:px-10 lg:pt-10 flex justify-between">
-        <img src="/images/cvbnw logo.png" className="hidden lg:block w-8"  alt="Logo" />
+        <img src="/images/cvbnw logo.png" className="hidden lg:block w-10 h-10" alt="Logo" />
 
         <div id="brand" className="flex gap-4 items-center">
-          <p className="text-6xl amarante">CODEVERSE</p>
+          <p className="text-4xl lg:text-5xl tracking-widest amarante">CODEVERSE</p>
         </div>
 
         <div id="menu">
-          <img src="/images/icons8-menu-250.png" className="w-8" alt="Menu" />
+          <img src="/images/icons8-menu-250.png" className="w-8 h-8" alt="Menu" />
         </div>
       </nav>
 

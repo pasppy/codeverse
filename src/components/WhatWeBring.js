@@ -4,7 +4,7 @@ const WhatWeBring = () => {
   return (
     <div
       id="page3"
-      className="flex flex-col justify-center items-center gap-20 lg:gap-40 bg-gradient-bg bg-cover lg:bg-right relative "
+      className="flex flex-col justify-center items-center gap-20 lg:gap-40  relative "
     >
       <div
         id="heading3"
@@ -15,23 +15,23 @@ const WhatWeBring = () => {
 
       <div className="mb-20 flex items-around justify-around flex-wrap w-[80%] lg:w-[70%] gap-10">
         <div id="first" className="flex flex-col justify-center items-center gap-2 lg:gap-5">
-          <img src="/images/learning.png" alt="Learnings" className="w-[30vmin] max-w-[200px]" />
-          <p className="text-[#cb6ce6] lg:text-xl">Learnings</p>
+          <img src="/images/learning.png" alt="Learnings" className="w-[27vmin] max-w-[160px]" />
+          <p className="text-[#cb6ce6] lg:text-2xl">Learnings</p>
         </div>
 
         <div id="second" className="flex flex-col justify-center items-center gap-2 lg:gap-5">
-          <img src="/images/discussion.png" alt="Mentorship" className="w-[30vmin] max-w-[200px]" />
-          <p className="text-[#cb6ce6] lg:text-xl">Mentorship</p>
+          <img src="/images/discussion.png" alt="Mentorship" className="w-[27vmin] max-w-[160px]" />
+          <p className="text-[#cb6ce6] lg:text-2xl">Mentorship</p>
         </div>
 
         <div id="third" className="flex flex-col justify-center items-center gap-2 lg:gap-5">
-          <img src="/images/consulting.png" alt="Opportunities" className="w-[30vmin] max-w-[200px]" />
-          <p className="text-[#cb6ce6] lg:text-xl">Opportunities</p>
+          <img src="/images/consulting.png" alt="Opportunities" className="w-[27vmin] max-w-[160px]" />
+          <p className="text-[#cb6ce6] lg:text-2xl">Opportunities</p>
         </div>
 
         <div id="fourth" className="flex flex-col justify-center items-center gap-2 lg:gap-5">
-          <img src="/images/networking (1).png" alt="Networking" className="w-[30vmin] max-w-[200px]" />
-          <p className="text-[#cb6ce6] lg:text-xl">Networking</p>
+          <img src="/images/networking (1).png" alt="Networking" className="w-[27vmin] max-w-[160px]" />
+          <p className="text-[#cb6ce6] lg:text-2xl">Networking</p>
         </div>
       </div>
     </div>

@@ -4,9 +4,9 @@ const WelcomeSection = () => {
   return (
     <div
       id="page2"
-      className="flex flex-col justify-center overflow-hidden gap-20 lg:gap-32 items-center bg-gradient-bg bg-cover lg:bg-right relative "
+      className="flex flex-col justify-center overflow-hidden gap-20 lg:gap-32 items-center  relative "
     >
-      <div className="mt-10 text-[5vmax] text-nowrap flex justify-center items-center flex-wrap leading-none">
+      <div className="mt-10 text-[5vmax] text-nowrap flex lg:gap-5 justify-center items-center flex-wrap leading-none">
         <h1 className="text-transparent text-stroke-white tracking-wide lg:tracking-widest special-gothic">WELCOME TO</h1>
         <h1 className="special-gothic">CODEVERSE</h1>
       </div>
