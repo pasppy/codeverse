@@ -13,10 +13,10 @@ const Hero = () => {
       />
 
       <nav className="px-5 pt-5 lg:px-10 lg:pt-10 flex justify-between">
-        <img src="/images/cvbnw logo.png" className="hidden lg:block w-8" alt="Logo" />
+        <img src="/images/cvbnw logo.png" className="hidden lg:block w-8"  alt="Logo" />
 
         <div id="brand" className="flex gap-4 items-center">
-          <p className="text-4xl futura">CODEVERSE</p>
+          <p className="text-6xl amarante">CODEVERSE</p>
         </div>
 
         <div id="menu">

@@ -14,10 +14,29 @@
   src: url('../public/fonts/TuesdayVibes-09AR.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Amarante';
+  src: url('../public/fonts/Amarante-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Special Gothic Expanded One';
+  src: url('../public/fonts/SpecialGothicExpandedOne.ttf') format('truetype');
+}
+
+
 /* brand name */
+.amarante {
+  font-family: 'Amarante', sans-serif;
+
+}
 
 .futura {
   font-family: 'Futura', sans-serif;
+}
+.special-gothic {
+  font-family: 'Special Gothic Expanded One', sans-serif;
+
 }
 
 /* for 'join the' text */
