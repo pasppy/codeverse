@@ -6,7 +6,6 @@ const ComingSoon = () => {
       id="page4"
       className="flex flex-col justify-center items-center gap-20 bg-gradient-bg bg-cover lg:bg-right relative"
     >
-      <h1 className=''>Heyy there</h1>
       <div
         id="heading4"
         className="mt-10 flex justify-center items-center tracking-wider text-3xl lg:text-4xl font-semibold py-4 px-[54px] sm:px-40 text-nowrap bg-[#360f56] rounded-full"
