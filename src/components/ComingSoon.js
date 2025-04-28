@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react';
 
-const ComingSoon = () => {
+const ComingSoon = ({ disableScroll, enableScroll }) => {
   const [popupOpenId, setPopupOpenId] = useState(null);
 
-  // Disable scroll when popup is open
+  // Disable Lenis scroll when popup is open
   useEffect(() => {
     if (popupOpenId !== null) {
-      document.body.style.overflow = 'hidden';
+      disableScroll();
     } else {
-      document.body.style.overflow = '';
+      enableScroll();
     }
     // Cleanup on unmount
     return () => {
-      document.body.style.overflow = '';
+      enableScroll();
     };
-  }, [popupOpenId]);
+  }, [popupOpenId, disableScroll, enableScroll]);
 
   const openPopup = (id) => {
     setPopupOpenId(id);

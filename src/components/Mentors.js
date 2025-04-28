@@ -38,7 +38,7 @@ const Mentors = () => {
 
       <div id="join-the-revolution" className="mt-20 lg:mt-40 relative p-4 rounded">
         <h1 className="absolute translate-y-[-20%]  tuesday-vibes text-[10vw] lg:text-[8vw]">Join the</h1>
-        <h1 className="special-gothic text-[12vw] lg:text-[10vw] text-transparent text-stroke-pink text-[#cb6ce6]">REVOLUTION</h1>
+        <h1 className="special-gothic text-[12vw] lg:text-[10vw] text-transparent text-stroke-pink">REVOLUTION</h1>
       </div>
 
     </div >

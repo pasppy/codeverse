@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Hero = () => {
+const Hero = ({ lenis }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const sections = [
@@ -15,10 +15,19 @@ const Hero = () => {
   };
 
   const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setMenuOpen(false);
+    console.log('scrollToSection called with id:', id);
+    console.log('lenis instance:', lenis);
+    if (lenis) {
+      const element = document.getElementById(id);
+      console.log('target element:', element);
+      if (element) {
+        lenis.scrollTo(element);
+        setMenuOpen(false);
+      } else {
+        console.warn('Element not found for id:', id);
+      }
+    } else {
+      console.warn('Lenis instance is null or undefined');
     }
   };
 

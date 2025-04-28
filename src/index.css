@@ -9,6 +9,11 @@
   src: url('/public/fonts/Patinio Futura.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Horizon';
+  src: url('/public/fonts/horizon_outlined.otf') format('opentype');
+}
+
 
 @font-face {
   font-family: 'Tuesday Vibes';
@@ -30,6 +35,10 @@
 .amarante {
   font-family: 'Amarante', sans-serif;
 
+}
+
+.horizon {
+  font-family: 'Horizon', sans-serif;
 }
 
 .futura {
@@ -76,5 +85,5 @@ body,
 }
 
 .text-stroke-pink {
-  -webkit-text-stroke: 1px #cb6ce6;
+  -webkit-text-stroke: 1px #cc6ce6c0;
 }

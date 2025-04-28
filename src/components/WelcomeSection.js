@@ -15,8 +15,8 @@ const WelcomeSection = () => {
 
       <Marquee speed={marqueeSpeed} className="overflow-hidden font-Horizon">
         <div className="mt-10 mr-5 text-[5vmax]  flex gap-5 justify-center items-center leading-none">
-          <h1 className="text-transparent text-stroke-white tracking-wide lg:tracking-widest special-gothic">WELCOME TO</h1>
-          <h1 className="special-gothic">CODEVERSE</h1>
+          <h1 className=" tracking-wide lg:tracking-widest horizon">WELCOME TO</h1>
+          <h1 className="special-gothic tracking-wide">CODEVERSE</h1>
         </div>
       </Marquee>
 
