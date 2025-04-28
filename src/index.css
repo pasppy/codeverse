@@ -78,18 +78,3 @@ body,
 .text-stroke-pink {
   -webkit-text-stroke: 1px #cb6ce6;
 }
-
-@keyframes slider {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.slider {
-  transform: translateX(0);
-  animation: slider 12s linear infinite;
-}

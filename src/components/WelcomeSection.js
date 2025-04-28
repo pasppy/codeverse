@@ -2,20 +2,21 @@ import React from 'react';
 import Marquee from "react-fast-marquee";
 
 const WelcomeSection = () => {
+  const isMobile = window.innerWidth < 768;
+  const marqueeSpeed = isMobile ? 150 : 300;
+
   return (
     <div
       id="page2"
       className="flex flex-col justify-center overflow-hidden gap-20 lg:gap-32 items-center  relative "
     >
-      {/* <div className="mt-10 text-[5vmax] text-nowrap flex lg:gap-5 justify-center items-center flex-wrap leading-none">
-        <h1 className="text-transparent text-stroke-white tracking-wide lg:tracking-widest special-gothic">WELCOME TO</h1>
-        <h1 className="special-gothic">CODEVERSE</h1>
-      </div> */}
 
       {/* Main heading with marquee effect */}
-      <Marquee speed={300} className="overflow-hidden font-Horizon">
-        <div className="text-9xl text-white overflow-hidden p-4 mb-9 special-gothic">
-          <span style={{ WebkitTextStroke: "1px white" }} className="text-transparent text-stroke-white tracking-wide special-gothic">WELCOME TO</span> CODEVERSE
+
+      <Marquee speed={marqueeSpeed} className="overflow-hidden font-Horizon">
+        <div className="mt-10 mr-5 text-[5vmax]  flex gap-5 justify-center items-center leading-none">
+          <h1 className="text-transparent text-stroke-white tracking-wide lg:tracking-widest special-gothic">WELCOME TO</h1>
+          <h1 className="special-gothic">CODEVERSE</h1>
         </div>
       </Marquee>
 
