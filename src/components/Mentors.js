@@ -15,7 +15,7 @@ const Mentors = () => {
         id="heading4"
         className="mt-10 flex justify-center items-center tracking-wider text-3xl lg:text-4xl font-semibold py-4 px-[54px] sm:px-40 text-nowrap bg-[#360f56] rounded-full"
       >
-        our mentors
+        our partners
       </div>
 
 
